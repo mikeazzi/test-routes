@@ -1,0 +1,10 @@
+
+<nav>
+    <a [routerLink]="['/component-one']">Component One</a>
+    <a [routerLink]="['/component-two']">Component Two</a>
+    <a [routerLink]="[{ outlets: { 'sidebar': ['component-aux'] } }]">Component Aux</a>
+  </nav>
+
+<router-outlet></router-outlet>
+
+<router-outlet  name="sidebar"></router-outlet>
