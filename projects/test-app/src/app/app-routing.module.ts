@@ -19,7 +19,7 @@ const routes: Routes = [
 { path: "component-3", component: Page3Component, 
  // outlet: "sidebar"
 },
- // { path: '', component: Page3Component, 
+ // { path: '', component: Page3Component, abc
 //   outlet: "sidebar"
 // },
 ]
